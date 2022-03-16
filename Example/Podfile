@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'AstraLib_Example' do
+  pod 'AstraLib', :path => '../'
+
+  target 'AstraLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

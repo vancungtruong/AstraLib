@@ -1,0 +1,6 @@
+framework module AstraLib {
+  umbrella header "AstraLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

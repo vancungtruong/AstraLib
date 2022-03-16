@@ -7,31 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		246D571C9184280D3C52E7D5 /* Pods_AstraLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECEA1C8651439EEDCDA93BA /* Pods_AstraLib_Tests.framework */; };
 		5116C7211A57F2EF785EEBB1 /* Pods_AstraLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5232D53017DABF28BE08078B /* Pods_AstraLib_Example.framework */; };
+		5E8AB01327E1DE18009F0F1B /* CTPurchaseKit+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AB01027E1DE18009F0F1B /* CTPurchaseKit+Config.swift */; };
+		5E8AB01427E1DE18009F0F1B /* CTPurchaseProduct+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AB01127E1DE18009F0F1B /* CTPurchaseProduct+Base.swift */; };
+		5E8AB01527E1DE18009F0F1B /* SKProduct+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AB01227E1DE18009F0F1B /* SKProduct+Extension.swift */; };
+		5E8AB01B27E1DE24009F0F1B /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AB01927E1DE23009F0F1B /* IAPHelper.swift */; };
+		5E8AB01C27E1DE24009F0F1B /* CTPurchaseProduct+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AB01A27E1DE24009F0F1B /* CTPurchaseProduct+Custom.swift */; };
+		5E9D1D9327E1EF7C00163283 /* CTPurchaseProduct+Adjust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D1D9127E1EF7C00163283 /* CTPurchaseProduct+Adjust.swift */; };
+		5E9D1D9427E1EF7C00163283 /* AdjustTracking+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D1D9227E1EF7C00163283 /* AdjustTracking+Custom.swift */; };
+		5E9D1D9927E1F09300163283 /* FirebaseTracking+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D1D9727E1F09300163283 /* FirebaseTracking+Custom.swift */; };
+		5E9D1D9A27E1F09300163283 /* CTPurchaseProduct+Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D1D9827E1F09300163283 /* CTPurchaseProduct+Firebase.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = AstraLib;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		05D793B2DD60184C0A5CEFF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		0CC8A022DABC4863FB13CAD1 /* AstraLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AstraLib.podspec; path = ../AstraLib.podspec; sourceTree = "<group>"; };
+		05D793B2DD60184C0A5CEFF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0CC8A022DABC4863FB13CAD1 /* AstraLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AstraLib.podspec; path = ../AstraLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5232D53017DABF28BE08078B /* Pods_AstraLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstraLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52E1A30CA2168B8CE5C12344 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		52E1A30CA2168B8CE5C12344 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5E8AB01027E1DE18009F0F1B /* CTPurchaseKit+Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseKit+Config.swift"; sourceTree = "<group>"; };
+		5E8AB01127E1DE18009F0F1B /* CTPurchaseProduct+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseProduct+Base.swift"; sourceTree = "<group>"; };
+		5E8AB01227E1DE18009F0F1B /* SKProduct+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKProduct+Extension.swift"; sourceTree = "<group>"; };
+		5E8AB01927E1DE23009F0F1B /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		5E8AB01A27E1DE24009F0F1B /* CTPurchaseProduct+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseProduct+Custom.swift"; sourceTree = "<group>"; };
+		5E9D1D9127E1EF7C00163283 /* CTPurchaseProduct+Adjust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseProduct+Adjust.swift"; sourceTree = "<group>"; };
+		5E9D1D9227E1EF7C00163283 /* AdjustTracking+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AdjustTracking+Custom.swift"; sourceTree = "<group>"; };
+		5E9D1D9727E1F09300163283 /* FirebaseTracking+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FirebaseTracking+Custom.swift"; sourceTree = "<group>"; };
+		5E9D1D9827E1F09300163283 /* CTPurchaseProduct+Firebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseProduct+Firebase.swift"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AstraLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstraLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,14 +45,10 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* AstraLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstraLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		61B45163E789B5E77BE2B11A /* Pods-AstraLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstraLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-AstraLib_Example/Pods-AstraLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8CAB6D8E069482CF76873A51 /* Pods-AstraLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstraLib_Example.release.xcconfig"; path = "Target Support Files/Pods-AstraLib_Example/Pods-AstraLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EECEA1C8651439EEDCDA93BA /* Pods_AstraLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstraLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7412D33838A7764225564AA /* Pods-AstraLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstraLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AstraLib_Tests/Pods-AstraLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FF973D79128EBD24EB1E7A22 /* Pods-AstraLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstraLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-AstraLib_Tests/Pods-AstraLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +60,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				246D571C9184280D3C52E7D5 /* Pods_AstraLib_Tests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -73,9 +67,72 @@
 			isa = PBXGroup;
 			children = (
 				5232D53017DABF28BE08078B /* Pods_AstraLib_Example.framework */,
-				EECEA1C8651439EEDCDA93BA /* Pods_AstraLib_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E8AB00D27E1DDE7009F0F1B /* AstraLib+Config */ = {
+			isa = PBXGroup;
+			children = (
+				5E8AB05727E1ED7A009F0F1B /* Tracking */,
+				5E8AB00E27E1DDFA009F0F1B /* Purchase */,
+			);
+			name = "AstraLib+Config";
+			sourceTree = "<group>";
+		};
+		5E8AB00E27E1DDFA009F0F1B /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				5E8AB01827E1DE1B009F0F1B /* Custom */,
+				5E8AB00F27E1DE0C009F0F1B /* Base */,
+			);
+			name = Purchase;
+			sourceTree = "<group>";
+		};
+		5E8AB00F27E1DE0C009F0F1B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5E8AB01027E1DE18009F0F1B /* CTPurchaseKit+Config.swift */,
+				5E8AB01127E1DE18009F0F1B /* CTPurchaseProduct+Base.swift */,
+				5E8AB01227E1DE18009F0F1B /* SKProduct+Extension.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		5E8AB01827E1DE1B009F0F1B /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5E8AB01A27E1DE24009F0F1B /* CTPurchaseProduct+Custom.swift */,
+				5E8AB01927E1DE23009F0F1B /* IAPHelper.swift */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		5E8AB05727E1ED7A009F0F1B /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D1D9627E1F09300163283 /* Firebase */,
+				5E9D1D9027E1EF7C00163283 /* Adjust */,
+			);
+			name = Tracking;
+			sourceTree = "<group>";
+		};
+		5E9D1D9027E1EF7C00163283 /* Adjust */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D1D9127E1EF7C00163283 /* CTPurchaseProduct+Adjust.swift */,
+				5E9D1D9227E1EF7C00163283 /* AdjustTracking+Custom.swift */,
+			);
+			path = Adjust;
+			sourceTree = "<group>";
+		};
+		5E9D1D9627E1F09300163283 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D1D9727E1F09300163283 /* FirebaseTracking+Custom.swift */,
+				5E9D1D9827E1F09300163283 /* CTPurchaseProduct+Firebase.swift */,
+			);
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -94,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* AstraLib_Example.app */,
-				607FACE51AFB9204008FA782 /* AstraLib_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +158,7 @@
 		607FACD21AFB9204008FA782 /* Example for AstraLib */ = {
 			isa = PBXGroup;
 			children = (
+				5E8AB00D27E1DDE7009F0F1B /* AstraLib+Config */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -153,10 +210,7 @@
 			children = (
 				61B45163E789B5E77BE2B11A /* Pods-AstraLib_Example.debug.xcconfig */,
 				8CAB6D8E069482CF76873A51 /* Pods-AstraLib_Example.release.xcconfig */,
-				F7412D33838A7764225564AA /* Pods-AstraLib_Tests.debug.xcconfig */,
-				FF973D79128EBD24EB1E7A22 /* Pods-AstraLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -182,25 +236,6 @@
 			productReference = 607FACD01AFB9204008FA782 /* AstraLib_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* AstraLib_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AstraLib_Tests" */;
-			buildPhases = (
-				C2B83A5FD7F94830DAC779B4 /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
-			);
-			name = AstraLib_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* AstraLib_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -215,11 +250,6 @@
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
 					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
-					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "AstraLib" */;
@@ -227,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -236,7 +267,6 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* AstraLib_Example */,
-				607FACE41AFB9204008FA782 /* AstraLib_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,13 +279,6 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,37 +314,39 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AstraLib_Example/Pods-AstraLib_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Adjust/Adjust.framework",
 				"${BUILT_PRODUCTS_DIR}/AstraLib/AstraLib.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBAEMKit/FBAEMKit.framework/FBAEMKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/FBSDKCoreKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.framework/FBSDKCoreKit_Basics",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Adjust.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AstraLib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBAEMKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit_Basics.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstraLib_Example/Pods-AstraLib_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C2B83A5FD7F94830DAC779B4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AstraLib_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -331,28 +356,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9D1D9927E1F09300163283 /* FirebaseTracking+Custom.swift in Sources */,
+				5E9D1D9A27E1F09300163283 /* CTPurchaseProduct+Firebase.swift in Sources */,
+				5E8AB01527E1DE18009F0F1B /* SKProduct+Extension.swift in Sources */,
+				5E9D1D9427E1EF7C00163283 /* AdjustTracking+Custom.swift in Sources */,
+				5E8AB01C27E1DE24009F0F1B /* CTPurchaseProduct+Custom.swift in Sources */,
+				5E9D1D9327E1EF7C00163283 /* CTPurchaseProduct+Adjust.swift in Sources */,
+				5E8AB01427E1DE18009F0F1B /* CTPurchaseProduct+Base.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				5E8AB01327E1DE18009F0F1B /* CTPurchaseKit+Config.swift in Sources */,
+				5E8AB01B27E1DE24009F0F1B /* IAPHelper.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* AstraLib_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -479,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AstraLib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,52 +513,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AstraLib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7412D33838A7764225564AA /* Pods-AstraLib_Tests.debug.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstraLib_Example.app/AstraLib_Example";
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF973D79128EBD24EB1E7A22 /* Pods-AstraLib_Tests.release.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstraLib_Example.app/AstraLib_Example";
 			};
 			name = Release;
 		};
@@ -560,15 +540,6 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AstraLib_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

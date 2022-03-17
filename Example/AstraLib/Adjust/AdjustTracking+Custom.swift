@@ -16,13 +16,9 @@ struct AdjustToken {
         
         case monthly = "monthly_token_here"
     }
-    
-    // add more here
 }
 
 extension AdjustTracking {
-    
-    // add more track function here
     
 //    static func trackCustomEvent() {
 //

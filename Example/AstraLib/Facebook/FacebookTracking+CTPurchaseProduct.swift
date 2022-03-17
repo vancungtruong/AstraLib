@@ -1,39 +1,26 @@
 //
-//  FirebaseTracking.swift
-//  MyCar
+//  CTPurchaseProduct+Facebook.swift
+//  InAppPurchaseKit
 //
-//  Created by An Thai on 12/31/21.
-//  Copyright © 2021 Astraler. All rights reserved.
+//  Created by cuong on 3/17/22.
 //
 
 import AstraLib
 
-enum FirebaseEvent: String {
-    
-    case inAppPurchase = "InAppPurchase"
-    
-    
-    
-    // MARK: - FirebaseEvent
-    var name: String {
-        return self.rawValue
-    }
-}
-
 extension CTPurchaseProduct {
     
-    // custom here
-    
-    func logFirebase(additionParams: [String: Any]?) {
+    func trackFacebook(additionParams: [String: Any]?) {
 
         if let product = CTPurchaseKit.shared.productsInfo[self.rawValue],
            let receiptString = CTPurchaseKit.receiptString {
 
             let currency = product.priceLocale.currencyCode ?? "USD"
+            let price = product.price.doubleValue
 
             var eventParams: [String: Any] = [
                 "item_id" : self.rawValue,
                 "item_name" : self.title,
+                "amount" : price,
                 "currency" : currency,
                 "receipt" : receiptString
             ]
@@ -44,7 +31,7 @@ extension CTPurchaseProduct {
                 }
             }
             
-            FirebaseTracking.trackEvent(FirebaseEvent.inAppPurchase.rawValue, parameters: eventParams)
+            FacebookTracking.trackEvent(name: TrackingEvent.inAppPurchase.rawValue, valueToSum: price, parameters: eventParams)
         }
     }
 }

@@ -7,9 +7,9 @@
 //
 
 import FirebaseCore
-import FirebaseAnalytics
+//import FirebaseAnalytics
 
-public typealias FirebaseEventParameters = [String : Any]
+public typealias TrackingParameters = [String : Any]
 
 public class FirebaseTracking {
     
@@ -17,9 +17,9 @@ public class FirebaseTracking {
         FirebaseApp.configure()
     }
     
-    public static func trackEvent(_ name: String, parameters: FirebaseEventParameters) {
-        
-        Analytics.logEvent(name, parameters: parameters)
-    }
+//    public static func trackEvent(_ name: String, parameters: TrackingParameters) {
+//
+//        Analytics.logEvent("name", parameters: parameters)
+//    }
     
 }

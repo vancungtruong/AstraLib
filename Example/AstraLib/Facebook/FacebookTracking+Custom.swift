@@ -6,17 +6,15 @@
 //
 
 import AstraLib
-import FirebaseAnalytics
 
-extension FirebaseTracking {
+extension FacebookTracking {
 
 //    static func trackCustomEvent() {
 //
 //        let params: TrackingParameters = [
 //            "key" : "value"
 //        ]
-//        
-//        Analytics.logEvent(TrackingEvent.custom.rawValue, parameters: params)
+//        FacebookTracking.trackEvent(name: TrackingEvent.custom.rawValue, valueToSum: nil, parameters: params)
 //    }
 
 }

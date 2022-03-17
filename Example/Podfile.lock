@@ -5,7 +5,7 @@ PODS:
   - AstraLib (1.0.0):
     - Adjust (~> 4.29.7)
     - FBSDKCoreKit (~> 12.3.2)
-    - Firebase/Analytics (~> 8.12.1)
+    - Firebase/Analytics (~> 8.12.0)
     - SwiftyStoreKit (~> 0.16.1)
   - FBAEMKit (12.3.2):
     - FBSDKCoreKit_Basics (= 12.3.2)
@@ -130,7 +130,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Adjust: 91a06a01e4bb35b432e26b5d5bb8995b95fc381c
-  AstraLib: 0b60a81ef02f6d0d4c764a62c0d71abcb920b85b
+  AstraLib: d1deb37b275e4e461ff9864b3ee1beee1a355cc9
   FBAEMKit: 955ca52eba8219c20f90774e8c6ff8bc7b3192a3
   FBSDKCoreKit: 678f64eda3f0ff25c189c2ebbfe87b1d96a85a6d
   FBSDKCoreKit_Basics: 6bee7c1f0932432901781203fa5e587ec5099148
@@ -146,6 +146,6 @@ SPEC CHECKSUMS:
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
 
-PODFILE CHECKSUM: 18e3c2bf37212eb004a396d2a1ca3b630266e444
+PODFILE CHECKSUM: 58ad72347a01ed76f84eecc670d2008d3040319c
 
 COCOAPODS: 1.11.2

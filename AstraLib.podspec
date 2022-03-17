@@ -41,5 +41,5 @@ TODO: Add long description of the pod here.
    s.dependency 'SwiftyStoreKit', '~> 0.16.1'
    s.dependency 'Adjust', '~> 4.29.7'
    s.dependency 'FBSDKCoreKit', '~> 12.3.2'
-   s.dependency 'Firebase/Analytics', '~> 8.12.1'
+   s.dependency 'Firebase/Analytics', '~> 8.12.0'
 end

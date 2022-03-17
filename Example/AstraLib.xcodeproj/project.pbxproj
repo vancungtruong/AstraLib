@@ -8,15 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		5116C7211A57F2EF785EEBB1 /* Pods_AstraLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5232D53017DABF28BE08078B /* Pods_AstraLib_Example.framework */; };
+		5E4F5F7C27E3267C009E1C88 /* TrackingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F5F7B27E3267C009E1C88 /* TrackingEvent.swift */; };
+		5E4F5F8027E32682009E1C88 /* FacebookTracking+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F5F7E27E32681009E1C88 /* FacebookTracking+Custom.swift */; };
+		5E4F5F8127E32682009E1C88 /* FacebookTracking+CTPurchaseProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F5F7F27E32682009E1C88 /* FacebookTracking+CTPurchaseProduct.swift */; };
+		5E4F5F8627E3382A009E1C88 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E4F5F8527E3382A009E1C88 /* GoogleService-Info.plist */; };
+		5E4F5FA027E33E85009E1C88 /* AppDelegate+RemoteNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F5F9F27E33E85009E1C88 /* AppDelegate+RemoteNotification.swift */; };
 		5E8AB01327E1DE18009F0F1B /* CTPurchaseKit+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AB01027E1DE18009F0F1B /* CTPurchaseKit+Config.swift */; };
 		5E8AB01427E1DE18009F0F1B /* CTPurchaseProduct+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AB01127E1DE18009F0F1B /* CTPurchaseProduct+Base.swift */; };
 		5E8AB01527E1DE18009F0F1B /* SKProduct+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AB01227E1DE18009F0F1B /* SKProduct+Extension.swift */; };
 		5E8AB01B27E1DE24009F0F1B /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AB01927E1DE23009F0F1B /* IAPHelper.swift */; };
 		5E8AB01C27E1DE24009F0F1B /* CTPurchaseProduct+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AB01A27E1DE24009F0F1B /* CTPurchaseProduct+Custom.swift */; };
-		5E9D1D9327E1EF7C00163283 /* CTPurchaseProduct+Adjust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D1D9127E1EF7C00163283 /* CTPurchaseProduct+Adjust.swift */; };
+		5E9D1D9327E1EF7C00163283 /* AdjustTracking+CTPurchaseProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D1D9127E1EF7C00163283 /* AdjustTracking+CTPurchaseProduct.swift */; };
 		5E9D1D9427E1EF7C00163283 /* AdjustTracking+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D1D9227E1EF7C00163283 /* AdjustTracking+Custom.swift */; };
 		5E9D1D9927E1F09300163283 /* FirebaseTracking+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D1D9727E1F09300163283 /* FirebaseTracking+Custom.swift */; };
-		5E9D1D9A27E1F09300163283 /* CTPurchaseProduct+Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D1D9827E1F09300163283 /* CTPurchaseProduct+Firebase.swift */; };
+		5E9D1D9A27E1F09300163283 /* FirebaseTracking+CTPurchaseProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D1D9827E1F09300163283 /* FirebaseTracking+CTPurchaseProduct.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,15 +34,20 @@
 		0CC8A022DABC4863FB13CAD1 /* AstraLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AstraLib.podspec; path = ../AstraLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5232D53017DABF28BE08078B /* Pods_AstraLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstraLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E1A30CA2168B8CE5C12344 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5E4F5F7B27E3267C009E1C88 /* TrackingEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingEvent.swift; sourceTree = "<group>"; };
+		5E4F5F7E27E32681009E1C88 /* FacebookTracking+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FacebookTracking+Custom.swift"; sourceTree = "<group>"; };
+		5E4F5F7F27E32682009E1C88 /* FacebookTracking+CTPurchaseProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FacebookTracking+CTPurchaseProduct.swift"; sourceTree = "<group>"; };
+		5E4F5F8527E3382A009E1C88 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E4F5F9F27E33E85009E1C88 /* AppDelegate+RemoteNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+RemoteNotification.swift"; sourceTree = "<group>"; };
 		5E8AB01027E1DE18009F0F1B /* CTPurchaseKit+Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseKit+Config.swift"; sourceTree = "<group>"; };
 		5E8AB01127E1DE18009F0F1B /* CTPurchaseProduct+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseProduct+Base.swift"; sourceTree = "<group>"; };
 		5E8AB01227E1DE18009F0F1B /* SKProduct+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKProduct+Extension.swift"; sourceTree = "<group>"; };
 		5E8AB01927E1DE23009F0F1B /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
 		5E8AB01A27E1DE24009F0F1B /* CTPurchaseProduct+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseProduct+Custom.swift"; sourceTree = "<group>"; };
-		5E9D1D9127E1EF7C00163283 /* CTPurchaseProduct+Adjust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseProduct+Adjust.swift"; sourceTree = "<group>"; };
+		5E9D1D9127E1EF7C00163283 /* AdjustTracking+CTPurchaseProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AdjustTracking+CTPurchaseProduct.swift"; sourceTree = "<group>"; };
 		5E9D1D9227E1EF7C00163283 /* AdjustTracking+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AdjustTracking+Custom.swift"; sourceTree = "<group>"; };
 		5E9D1D9727E1F09300163283 /* FirebaseTracking+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FirebaseTracking+Custom.swift"; sourceTree = "<group>"; };
-		5E9D1D9827E1F09300163283 /* CTPurchaseProduct+Firebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseProduct+Firebase.swift"; sourceTree = "<group>"; };
+		5E9D1D9827E1F09300163283 /* FirebaseTracking+CTPurchaseProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FirebaseTracking+CTPurchaseProduct.swift"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AstraLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstraLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,13 +81,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5E8AB00D27E1DDE7009F0F1B /* AstraLib+Config */ = {
+		5E4F5EFF27E2ED94009E1C88 /* Facebook */ = {
 			isa = PBXGroup;
 			children = (
+				5E4F5F7E27E32681009E1C88 /* FacebookTracking+Custom.swift */,
+				5E4F5F7F27E32682009E1C88 /* FacebookTracking+CTPurchaseProduct.swift */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		5E4F5F9E27E33E59009E1C88 /* RemoteNotification */ = {
+			isa = PBXGroup;
+			children = (
+				5E4F5F9F27E33E85009E1C88 /* AppDelegate+RemoteNotification.swift */,
+			);
+			name = RemoteNotification;
+			sourceTree = "<group>";
+		};
+		5E8AB00D27E1DDE7009F0F1B /* AstraLib+Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5E4F5F9E27E33E59009E1C88 /* RemoteNotification */,
 				5E8AB05727E1ED7A009F0F1B /* Tracking */,
 				5E8AB00E27E1DDFA009F0F1B /* Purchase */,
 			);
-			name = "AstraLib+Config";
+			name = "AstraLib+Custom";
 			sourceTree = "<group>";
 		};
 		5E8AB00E27E1DDFA009F0F1B /* Purchase */ = {
@@ -102,8 +130,8 @@
 		5E8AB01827E1DE1B009F0F1B /* Custom */ = {
 			isa = PBXGroup;
 			children = (
-				5E8AB01A27E1DE24009F0F1B /* CTPurchaseProduct+Custom.swift */,
 				5E8AB01927E1DE23009F0F1B /* IAPHelper.swift */,
+				5E8AB01A27E1DE24009F0F1B /* CTPurchaseProduct+Custom.swift */,
 			);
 			name = Custom;
 			sourceTree = "<group>";
@@ -111,6 +139,8 @@
 		5E8AB05727E1ED7A009F0F1B /* Tracking */ = {
 			isa = PBXGroup;
 			children = (
+				5E4F5F7B27E3267C009E1C88 /* TrackingEvent.swift */,
+				5E4F5EFF27E2ED94009E1C88 /* Facebook */,
 				5E9D1D9627E1F09300163283 /* Firebase */,
 				5E9D1D9027E1EF7C00163283 /* Adjust */,
 			);
@@ -120,7 +150,7 @@
 		5E9D1D9027E1EF7C00163283 /* Adjust */ = {
 			isa = PBXGroup;
 			children = (
-				5E9D1D9127E1EF7C00163283 /* CTPurchaseProduct+Adjust.swift */,
+				5E9D1D9127E1EF7C00163283 /* AdjustTracking+CTPurchaseProduct.swift */,
 				5E9D1D9227E1EF7C00163283 /* AdjustTracking+Custom.swift */,
 			);
 			path = Adjust;
@@ -130,7 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				5E9D1D9727E1F09300163283 /* FirebaseTracking+Custom.swift */,
-				5E9D1D9827E1F09300163283 /* CTPurchaseProduct+Firebase.swift */,
+				5E9D1D9827E1F09300163283 /* FirebaseTracking+CTPurchaseProduct.swift */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -158,9 +188,10 @@
 		607FACD21AFB9204008FA782 /* Example for AstraLib */ = {
 			isa = PBXGroup;
 			children = (
-				5E8AB00D27E1DDE7009F0F1B /* AstraLib+Config */,
+				5E8AB00D27E1DDE7009F0F1B /* AstraLib+Custom */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				5E4F5F8527E3382A009E1C88 /* GoogleService-Info.plist */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -277,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				5E4F5F8627E3382A009E1C88 /* GoogleService-Info.plist in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -357,11 +389,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E9D1D9927E1F09300163283 /* FirebaseTracking+Custom.swift in Sources */,
-				5E9D1D9A27E1F09300163283 /* CTPurchaseProduct+Firebase.swift in Sources */,
+				5E9D1D9A27E1F09300163283 /* FirebaseTracking+CTPurchaseProduct.swift in Sources */,
 				5E8AB01527E1DE18009F0F1B /* SKProduct+Extension.swift in Sources */,
+				5E4F5FA027E33E85009E1C88 /* AppDelegate+RemoteNotification.swift in Sources */,
+				5E4F5F7C27E3267C009E1C88 /* TrackingEvent.swift in Sources */,
 				5E9D1D9427E1EF7C00163283 /* AdjustTracking+Custom.swift in Sources */,
 				5E8AB01C27E1DE24009F0F1B /* CTPurchaseProduct+Custom.swift in Sources */,
-				5E9D1D9327E1EF7C00163283 /* CTPurchaseProduct+Adjust.swift in Sources */,
+				5E4F5F8027E32682009E1C88 /* FacebookTracking+Custom.swift in Sources */,
+				5E9D1D9327E1EF7C00163283 /* AdjustTracking+CTPurchaseProduct.swift in Sources */,
+				5E4F5F8127E32682009E1C88 /* FacebookTracking+CTPurchaseProduct.swift in Sources */,
 				5E8AB01427E1DE18009F0F1B /* CTPurchaseProduct+Base.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				5E8AB01327E1DE18009F0F1B /* CTPurchaseKit+Config.swift in Sources */,
@@ -440,6 +476,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -485,6 +522,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;

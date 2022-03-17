@@ -6,8 +6,36 @@
 //
 
 import FBSDKCoreKit
+import UIKit
 
 public class FacebookTracking {
+    
+    public static func config(application: UIApplication, launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
+        
+        ApplicationDelegate.shared.application(
+            application,
+            didFinishLaunchingWithOptions: launchOptions
+        )
+    }
+    
+    public static func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any]) -> Bool {
+        
+        return ApplicationDelegate.shared.application(
+            application,
+            open: url,
+            options: options
+        )
+    }
+    
+    @discardableResult public static func open(url: URL) -> Bool {
+        
+        return ApplicationDelegate.shared.application(
+            UIApplication.shared,
+            open: url,
+            sourceApplication: nil,
+            annotation: [UIApplication.OpenURLOptionsKey.annotation]
+        )
+    }
     
     public static func trackEvent(name: String, valueToSum: Double?, parameters: [String : Any]?) {
         

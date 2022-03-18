@@ -5,7 +5,6 @@
 //  Created by Cung Truong on 23/02/2022.
 //
 
-import Foundation
 import UserNotifications
 
 public extension NSNotification.Name {

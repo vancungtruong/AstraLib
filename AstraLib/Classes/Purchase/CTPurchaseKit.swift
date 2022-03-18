@@ -394,23 +394,19 @@ public class CTPurchaseKit {
     private func handleFetchReceiptError(_ error: ReceiptError, productID: String, completion: CTPurchaseVerifyCompletion?) {
         
         self.log("Verify receipt Failed: \(error)")
-        #if DEBUG
-        #else
-            let productKey = CTProduct(productID)
             
-            if let expiryTime = productKey?.expiryTime {
+            if let expiryTime = productID.expiryTime {
                 
                 if Date().timeIntervalSince1970 - kDelayTime > expiryTime {
                     
                     let expiredDate = Date(timeIntervalSince1970: expiryTime)
                     self.log("local: \(productID) is expired since -> ", localDateFormatter.string(from: expiredDate))
-                    productKey?.removeExpiryTime()
-                    productKey?.setPurchased(false)
+                    productID.removeExpiryTime()
+                    productID.setPurchased(false)
                     completion?(false, expiredDate)
                     return
                 }
             }
-        #endif
         
         completion?(nil, nil)
     }

@@ -9,7 +9,7 @@
 import Foundation
 
 
-protocol CTPurchaseDelegate: NSObjectProtocol {
+public protocol CTPurchaseDelegate: NSObjectProtocol {
     
     func handleInAppPurchaseNotification(_ notify: Notification)
 }
@@ -17,7 +17,7 @@ protocol CTPurchaseDelegate: NSObjectProtocol {
 
 extension CTPurchaseDelegate {
     
-    func addObserverInAppPurchaseNotification() {
+    public func addObserverInAppPurchaseNotification() {
         
         NotificationCenter.default.addObserver(forName: .InAppPurchase, object: nil, queue: OperationQueue.main) { [weak self] (notification) in
             
@@ -25,7 +25,7 @@ extension CTPurchaseDelegate {
         }
     }
     
-    func removeObserverInAppPurchaseNotification() {
+    public func removeObserverInAppPurchaseNotification() {
         NotificationCenter.default.removeObserver(self, name: .InAppPurchase, object: nil)
     }
 }

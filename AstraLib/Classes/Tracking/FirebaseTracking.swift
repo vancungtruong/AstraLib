@@ -6,16 +6,16 @@
 //  Copyright © 2021 Astraler. All rights reserved.
 //
 
-import FirebaseCore
+//import FirebaseCore
 //import FirebaseAnalytics
 
 public typealias TrackingParameters = [String : Any]
 
 public class FirebaseTracking {
     
-    public static func config() {
-        FirebaseApp.configure()
-    }
+//    public static func config() {
+//        FirebaseApp.configure()
+//    }
     
 //    public static func trackEvent(_ name: String, parameters: TrackingParameters) {
 //

@@ -18,7 +18,7 @@ public class FacebookTracking {
         )
     }
     
-    public static func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any]) -> Bool {
+    public static func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any]) -> Bool {
         
         return ApplicationDelegate.shared.application(
             application,

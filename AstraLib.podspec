@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AstraLib'
-  s.version          = '0.1.0'
-  s.summary          = 'Kit for in-app purchase, push notification & tracking events.'
+  s.version          = '0.1.1'
+  s.summary          = 'Kit for Astra'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
-  s.swift_version = '4.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'AstraLib/Classes/**/*'
   

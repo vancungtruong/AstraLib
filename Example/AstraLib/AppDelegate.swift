@@ -7,7 +7,9 @@
 //
 
 import UIKit
+
 import AstraLib
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
         setupAstraLib(application, launchOptions: launchOptions)
@@ -53,7 +55,7 @@ extension AppDelegate {
         
         CTPurchaseKit.config()
         AdjustTracking.config(appToken: AdjustToken.appToken)
-        FirebaseTracking.config()
+        FirebaseApp.configure()
         FacebookTracking.config(application: application, launchOptions: launchOptions)
         
         setupRemoteNotification()
@@ -80,7 +82,7 @@ extension AppDelegate {
     }
      */
     
-    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         
         return FacebookTracking.application(app, open: url, options: options)
     }

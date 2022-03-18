@@ -39,7 +39,7 @@ public class CTPurchaseKit {
     
     private var indicatorView: UIActivityIndicatorView = {
         
-        let indicatorView = UIActivityIndicatorView(activityIndicatorStyle: .large)
+        let indicatorView = UIActivityIndicatorView(style: .large)
         indicatorView.hidesWhenStopped = true
         indicatorView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         indicatorView.backgroundColor = UIColor(white: 0.0, alpha: 0.5)

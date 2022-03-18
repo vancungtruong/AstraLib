@@ -13,7 +13,7 @@ public enum CTPurchaseProduct: String, CaseIterable {
     
     static let sharedSecret: String = ""
     
-    case monthly = "com.cuongnguyen.demo.monthly"
+    case monthly = "com.demo.monthly"
     
 }
 

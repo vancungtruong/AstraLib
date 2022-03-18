@@ -11,7 +11,6 @@
 		5E4F5F7C27E3267C009E1C88 /* TrackingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F5F7B27E3267C009E1C88 /* TrackingEvent.swift */; };
 		5E4F5F8027E32682009E1C88 /* FacebookTracking+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F5F7E27E32681009E1C88 /* FacebookTracking+Custom.swift */; };
 		5E4F5F8127E32682009E1C88 /* FacebookTracking+CTPurchaseProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F5F7F27E32682009E1C88 /* FacebookTracking+CTPurchaseProduct.swift */; };
-		5E4F5F8627E3382A009E1C88 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E4F5F8527E3382A009E1C88 /* GoogleService-Info.plist */; };
 		5E4F5FA027E33E85009E1C88 /* AppDelegate+RemoteNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F5F9F27E33E85009E1C88 /* AppDelegate+RemoteNotification.swift */; };
 		5E8AB01327E1DE18009F0F1B /* CTPurchaseKit+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AB01027E1DE18009F0F1B /* CTPurchaseKit+Config.swift */; };
 		5E8AB01427E1DE18009F0F1B /* CTPurchaseProduct+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AB01127E1DE18009F0F1B /* CTPurchaseProduct+Base.swift */; };
@@ -37,7 +36,6 @@
 		5E4F5F7B27E3267C009E1C88 /* TrackingEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingEvent.swift; sourceTree = "<group>"; };
 		5E4F5F7E27E32681009E1C88 /* FacebookTracking+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FacebookTracking+Custom.swift"; sourceTree = "<group>"; };
 		5E4F5F7F27E32682009E1C88 /* FacebookTracking+CTPurchaseProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FacebookTracking+CTPurchaseProduct.swift"; sourceTree = "<group>"; };
-		5E4F5F8527E3382A009E1C88 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5E4F5F9F27E33E85009E1C88 /* AppDelegate+RemoteNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+RemoteNotification.swift"; sourceTree = "<group>"; };
 		5E8AB01027E1DE18009F0F1B /* CTPurchaseKit+Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseKit+Config.swift"; sourceTree = "<group>"; };
 		5E8AB01127E1DE18009F0F1B /* CTPurchaseProduct+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseProduct+Base.swift"; sourceTree = "<group>"; };
@@ -191,7 +189,6 @@
 				5E8AB00D27E1DDE7009F0F1B /* AstraLib+Custom */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				5E4F5F8527E3382A009E1C88 /* GoogleService-Info.plist */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -308,7 +305,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				5E4F5F8627E3382A009E1C88 /* GoogleService-Info.plist in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);

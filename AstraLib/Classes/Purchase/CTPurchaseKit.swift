@@ -231,12 +231,6 @@ public class CTPurchaseKit {
         
         UserDefaults.standard.synchronize()
         
-        if !config.serverVerifyProductIDs.isEmpty {
-            config.verifyReceiptHandler?(nil, true, { [unowned self] in
-                self.finishAllTransactions()
-            })
-        }
-        
         self.log("Restore Completed")
         self.showAlert(title: nil, message: "Restore Completed")
         completion?(true)
@@ -492,7 +486,7 @@ extension CTPurchaseKit {
             }
             
             if !self.needVerifyPurchases.isEmpty {
-                config.verifyReceiptHandler?(nil, true, { [unowned self] in
+                config.verifyReceiptHandler?(nil, false, { [unowned self] in
                     self.finishAllTransactions()
                 })
             }
@@ -536,7 +530,7 @@ extension CTPurchaseKit {
         return receiptString
     }
     
-    func postInAppPurchasedNotification(object: Any?) {
+    public func postInAppPurchasedNotification(object: Any?) {
         NotificationCenter.default.post(name: .InAppPurchase, object: object)
     }
 }

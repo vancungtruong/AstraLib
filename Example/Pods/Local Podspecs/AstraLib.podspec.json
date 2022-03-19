@@ -1,9 +1,8 @@
 {
   "name": "AstraLib",
-  "version": "1.0.0",
-  "summary": "A short description of AstraLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Cung Truong/AstraLib",
+  "version": "0.1.2",
+  "summary": "Kit for Astra",
+  "homepage": "https://github.com/vancungtruong/AstraLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +11,19 @@
     "Cung Truong": "vancungtruong@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Cung Truong/AstraLib.git",
-    "tag": "1.0.0"
+    "git": "https://github.com/vancungtruong/AstraLib.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "13.0"
   },
+  "swift_versions": "5.0",
   "source_files": "AstraLib/Classes/**/*",
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "UserNotifications"
+  ],
   "dependencies": {
     "SwiftyStoreKit": [
       "~> 0.16.1"
@@ -30,7 +35,8 @@
       "~> 12.3.2"
     ],
     "Firebase/Analytics": [
-      "~> 8.12.0"
+      "~> 8.13.0"
     ]
-  }
+  },
+  "swift_version": "5.0"
 }

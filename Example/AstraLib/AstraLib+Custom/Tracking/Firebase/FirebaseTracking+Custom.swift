@@ -6,7 +6,6 @@
 //
 
 import AstraLib
-import FirebaseAnalytics
 
 extension FirebaseTracking {
 
@@ -16,7 +15,7 @@ extension FirebaseTracking {
 //            "key" : "value"
 //        ]
 //        
-//        Analytics.logEvent(TrackingEvent.custom.rawValue, parameters: params)
+//        FirebaseTracking.trackEvent(TrackingEvent.custom.rawValue, parameters: params)
 //    }
 
 }

@@ -535,6 +535,10 @@ extension CTPurchaseKit {
         
         return receiptString
     }
+    
+    func postInAppPurchasedNotification(object: Any?) {
+        NotificationCenter.default.post(name: .InAppPurchase, object: object)
+    }
 }
 
 

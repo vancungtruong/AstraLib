@@ -9,7 +9,6 @@
 import UIKit
 
 import AstraLib
-import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -55,7 +54,7 @@ extension AppDelegate {
         
         CTPurchaseKit.config()
         AdjustTracking.config(appToken: AdjustToken.appToken)
-        FirebaseApp.configure()
+        FirebaseTracking.config()
         FacebookTracking.config(application: application, launchOptions: launchOptions)
         
         setupRemoteNotification()

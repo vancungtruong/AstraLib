@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5116C7211A57F2EF785EEBB1 /* Pods_AstraLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5232D53017DABF28BE08078B /* Pods_AstraLib_Example.framework */; };
+		5E2D07E627E597280040AC32 /* FirebaseTracking+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D07E527E597280040AC32 /* FirebaseTracking+Base.swift */; };
 		5E8848E427E4740300CCE227 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848D127E4740300CCE227 /* IAPHelper.swift */; };
 		5E8848E527E4740300CCE227 /* CTPurchaseProduct+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848D227E4740300CCE227 /* CTPurchaseProduct+Custom.swift */; };
 		5E8848E627E4740400CCE227 /* CTPurchaseKit+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848D427E4740300CCE227 /* CTPurchaseKit+Config.swift */; };
@@ -33,6 +34,7 @@
 		0CC8A022DABC4863FB13CAD1 /* AstraLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AstraLib.podspec; path = ../AstraLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5232D53017DABF28BE08078B /* Pods_AstraLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstraLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E1A30CA2168B8CE5C12344 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5E2D07E527E597280040AC32 /* FirebaseTracking+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FirebaseTracking+Base.swift"; sourceTree = "<group>"; };
 		5E8848D127E4740300CCE227 /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
 		5E8848D227E4740300CCE227 /* CTPurchaseProduct+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseProduct+Custom.swift"; sourceTree = "<group>"; };
 		5E8848D427E4740300CCE227 /* CTPurchaseKit+Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseKit+Config.swift"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			children = (
 				5E8848DC27E4740300CCE227 /* FirebaseTracking+Custom.swift */,
 				5E8848DD27E4740300CCE227 /* FirebaseTracking+CTPurchaseProduct.swift */,
+				5E2D07E527E597280040AC32 /* FirebaseTracking+Base.swift */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E2D07E627E597280040AC32 /* FirebaseTracking+Base.swift in Sources */,
 				5E8848EB27E4740400CCE227 /* FirebaseTracking+Custom.swift in Sources */,
 				5E8848EA27E4740400CCE227 /* AdjustTracking+CTPurchaseProduct.swift in Sources */,
 				5E8848E727E4740400CCE227 /* CTPurchaseProduct+Base.swift in Sources */,

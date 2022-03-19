@@ -7,7 +7,6 @@
 //
 
 import AstraLib
-import FirebaseAnalytics
 
 
 extension CTPurchaseProduct {
@@ -32,7 +31,7 @@ extension CTPurchaseProduct {
                 }
             }
             
-            Analytics.logEvent(TrackingEvent.inAppPurchase.rawValue, parameters: eventParams)
+            FirebaseTracking.trackEvent(TrackingEvent.inAppPurchase.rawValue, parameters: eventParams)
         }
     }
 }

@@ -7,21 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C3ED79327E8187A00D4CC3E /* AstraLib+Custom in Resources */ = {isa = PBXBuildFile; fileRef = 1C3ED79227E8187A00D4CC3E /* AstraLib+Custom */; };
 		5116C7211A57F2EF785EEBB1 /* Pods_AstraLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5232D53017DABF28BE08078B /* Pods_AstraLib_Example.framework */; };
-		5E2D07E627E597280040AC32 /* FirebaseTracking+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D07E527E597280040AC32 /* FirebaseTracking+Base.swift */; };
-		5E8848E427E4740300CCE227 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848D127E4740300CCE227 /* IAPHelper.swift */; };
-		5E8848E527E4740300CCE227 /* CTPurchaseProduct+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848D227E4740300CCE227 /* CTPurchaseProduct+Custom.swift */; };
-		5E8848E627E4740400CCE227 /* CTPurchaseKit+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848D427E4740300CCE227 /* CTPurchaseKit+Config.swift */; };
-		5E8848E727E4740400CCE227 /* CTPurchaseProduct+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848D527E4740300CCE227 /* CTPurchaseProduct+Base.swift */; };
-		5E8848E827E4740400CCE227 /* SKProduct+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848D627E4740300CCE227 /* SKProduct+Extension.swift */; };
-		5E8848E927E4740400CCE227 /* AdjustTracking+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848D927E4740300CCE227 /* AdjustTracking+Custom.swift */; };
-		5E8848EA27E4740400CCE227 /* AdjustTracking+CTPurchaseProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848DA27E4740300CCE227 /* AdjustTracking+CTPurchaseProduct.swift */; };
-		5E8848EB27E4740400CCE227 /* FirebaseTracking+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848DC27E4740300CCE227 /* FirebaseTracking+Custom.swift */; };
-		5E8848EC27E4740400CCE227 /* FirebaseTracking+CTPurchaseProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848DD27E4740300CCE227 /* FirebaseTracking+CTPurchaseProduct.swift */; };
-		5E8848ED27E4740400CCE227 /* FacebookTracking+CTPurchaseProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848DF27E4740300CCE227 /* FacebookTracking+CTPurchaseProduct.swift */; };
-		5E8848EE27E4740400CCE227 /* FacebookTracking+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848E027E4740300CCE227 /* FacebookTracking+Custom.swift */; };
-		5E8848EF27E4740400CCE227 /* TrackingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848E127E4740300CCE227 /* TrackingEvent.swift */; };
-		5E8848F027E4740400CCE227 /* AppDelegate+RemoteNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8848E327E4740300CCE227 /* AppDelegate+RemoteNotification.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -32,22 +19,9 @@
 /* Begin PBXFileReference section */
 		05D793B2DD60184C0A5CEFF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0CC8A022DABC4863FB13CAD1 /* AstraLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AstraLib.podspec; path = ../AstraLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1C3ED79227E8187A00D4CC3E /* AstraLib+Custom */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "AstraLib+Custom"; path = "../../../Demo/AstraDemo/AstraDemo/AstraLib+Custom"; sourceTree = "<group>"; };
 		5232D53017DABF28BE08078B /* Pods_AstraLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstraLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E1A30CA2168B8CE5C12344 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5E2D07E527E597280040AC32 /* FirebaseTracking+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FirebaseTracking+Base.swift"; sourceTree = "<group>"; };
-		5E8848D127E4740300CCE227 /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
-		5E8848D227E4740300CCE227 /* CTPurchaseProduct+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseProduct+Custom.swift"; sourceTree = "<group>"; };
-		5E8848D427E4740300CCE227 /* CTPurchaseKit+Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseKit+Config.swift"; sourceTree = "<group>"; };
-		5E8848D527E4740300CCE227 /* CTPurchaseProduct+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CTPurchaseProduct+Base.swift"; sourceTree = "<group>"; };
-		5E8848D627E4740300CCE227 /* SKProduct+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKProduct+Extension.swift"; sourceTree = "<group>"; };
-		5E8848D927E4740300CCE227 /* AdjustTracking+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AdjustTracking+Custom.swift"; sourceTree = "<group>"; };
-		5E8848DA27E4740300CCE227 /* AdjustTracking+CTPurchaseProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AdjustTracking+CTPurchaseProduct.swift"; sourceTree = "<group>"; };
-		5E8848DC27E4740300CCE227 /* FirebaseTracking+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FirebaseTracking+Custom.swift"; sourceTree = "<group>"; };
-		5E8848DD27E4740300CCE227 /* FirebaseTracking+CTPurchaseProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FirebaseTracking+CTPurchaseProduct.swift"; sourceTree = "<group>"; };
-		5E8848DF27E4740300CCE227 /* FacebookTracking+CTPurchaseProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FacebookTracking+CTPurchaseProduct.swift"; sourceTree = "<group>"; };
-		5E8848E027E4740300CCE227 /* FacebookTracking+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FacebookTracking+Custom.swift"; sourceTree = "<group>"; };
-		5E8848E127E4740300CCE227 /* TrackingEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingEvent.swift; sourceTree = "<group>"; };
-		5E8848E327E4740300CCE227 /* AppDelegate+RemoteNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+RemoteNotification.swift"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AstraLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstraLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,91 +55,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5E8848CE27E4740300CCE227 /* AstraLib+Custom */ = {
-			isa = PBXGroup;
-			children = (
-				5E8848CF27E4740300CCE227 /* Purchase */,
-				5E8848D727E4740300CCE227 /* Tracking */,
-				5E8848E227E4740300CCE227 /* RemoteNotification */,
-			);
-			path = "AstraLib+Custom";
-			sourceTree = "<group>";
-		};
-		5E8848CF27E4740300CCE227 /* Purchase */ = {
-			isa = PBXGroup;
-			children = (
-				5E8848D027E4740300CCE227 /* Custom */,
-				5E8848D327E4740300CCE227 /* Base */,
-			);
-			path = Purchase;
-			sourceTree = "<group>";
-		};
-		5E8848D027E4740300CCE227 /* Custom */ = {
-			isa = PBXGroup;
-			children = (
-				5E8848D127E4740300CCE227 /* IAPHelper.swift */,
-				5E8848D227E4740300CCE227 /* CTPurchaseProduct+Custom.swift */,
-			);
-			path = Custom;
-			sourceTree = "<group>";
-		};
-		5E8848D327E4740300CCE227 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				5E8848D427E4740300CCE227 /* CTPurchaseKit+Config.swift */,
-				5E8848D527E4740300CCE227 /* CTPurchaseProduct+Base.swift */,
-				5E8848D627E4740300CCE227 /* SKProduct+Extension.swift */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		5E8848D727E4740300CCE227 /* Tracking */ = {
-			isa = PBXGroup;
-			children = (
-				5E8848D827E4740300CCE227 /* Adjust */,
-				5E8848DB27E4740300CCE227 /* Firebase */,
-				5E8848DE27E4740300CCE227 /* Facebook */,
-				5E8848E127E4740300CCE227 /* TrackingEvent.swift */,
-			);
-			path = Tracking;
-			sourceTree = "<group>";
-		};
-		5E8848D827E4740300CCE227 /* Adjust */ = {
-			isa = PBXGroup;
-			children = (
-				5E8848D927E4740300CCE227 /* AdjustTracking+Custom.swift */,
-				5E8848DA27E4740300CCE227 /* AdjustTracking+CTPurchaseProduct.swift */,
-			);
-			path = Adjust;
-			sourceTree = "<group>";
-		};
-		5E8848DB27E4740300CCE227 /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				5E8848DC27E4740300CCE227 /* FirebaseTracking+Custom.swift */,
-				5E8848DD27E4740300CCE227 /* FirebaseTracking+CTPurchaseProduct.swift */,
-				5E2D07E527E597280040AC32 /* FirebaseTracking+Base.swift */,
-			);
-			path = Firebase;
-			sourceTree = "<group>";
-		};
-		5E8848DE27E4740300CCE227 /* Facebook */ = {
-			isa = PBXGroup;
-			children = (
-				5E8848DF27E4740300CCE227 /* FacebookTracking+CTPurchaseProduct.swift */,
-				5E8848E027E4740300CCE227 /* FacebookTracking+Custom.swift */,
-			);
-			path = Facebook;
-			sourceTree = "<group>";
-		};
-		5E8848E227E4740300CCE227 /* RemoteNotification */ = {
-			isa = PBXGroup;
-			children = (
-				5E8848E327E4740300CCE227 /* AppDelegate+RemoteNotification.swift */,
-			);
-			path = RemoteNotification;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -189,7 +78,7 @@
 		607FACD21AFB9204008FA782 /* Example for AstraLib */ = {
 			isa = PBXGroup;
 			children = (
-				5E8848CE27E4740300CCE227 /* AstraLib+Custom */,
+				1C3ED79227E8187A00D4CC3E /* AstraLib+Custom */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -310,6 +199,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				1C3ED79327E8187A00D4CC3E /* AstraLib+Custom in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,22 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E2D07E627E597280040AC32 /* FirebaseTracking+Base.swift in Sources */,
-				5E8848EB27E4740400CCE227 /* FirebaseTracking+Custom.swift in Sources */,
-				5E8848EA27E4740400CCE227 /* AdjustTracking+CTPurchaseProduct.swift in Sources */,
-				5E8848E727E4740400CCE227 /* CTPurchaseProduct+Base.swift in Sources */,
-				5E8848F027E4740400CCE227 /* AppDelegate+RemoteNotification.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				5E8848E927E4740400CCE227 /* AdjustTracking+Custom.swift in Sources */,
-				5E8848E427E4740300CCE227 /* IAPHelper.swift in Sources */,
-				5E8848EE27E4740400CCE227 /* FacebookTracking+Custom.swift in Sources */,
-				5E8848E827E4740400CCE227 /* SKProduct+Extension.swift in Sources */,
-				5E8848E527E4740300CCE227 /* CTPurchaseProduct+Custom.swift in Sources */,
-				5E8848EF27E4740400CCE227 /* TrackingEvent.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				5E8848EC27E4740400CCE227 /* FirebaseTracking+CTPurchaseProduct.swift in Sources */,
-				5E8848ED27E4740400CCE227 /* FacebookTracking+CTPurchaseProduct.swift in Sources */,
-				5E8848E627E4740400CCE227 /* CTPurchaseKit+Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  CTPurchaseConfig.swift
+//  PurchaseConfig.swift
 //  InAppPurchaseKit
 //
 //  Created by Cung Truong on 03/03/2022.
@@ -7,9 +7,9 @@
 
 import Foundation
 
-public typealias CTPurchaseVerifyReceiptHandler = (_ productID: String?, _ isShowIndicator: Bool, _ completion: () -> Void) -> Void
+public typealias PurchaseVerifyReceiptHandler = (_ productID: String?, _ isShowIndicator: Bool, _ completion: () -> Void) -> Void
 
-public struct CTPurchaseConfig {
+public struct PurchaseConfig {
     
     public let sharedSecret: String?
     
@@ -19,11 +19,11 @@ public struct CTPurchaseConfig {
     
     public let serverVerifyProductIDs: [String]    // server verify receipt of subscriptions or consumables
     
-    public let verifyReceiptHandler: CTPurchaseVerifyReceiptHandler?
+    public let verifyReceiptHandler: PurchaseVerifyReceiptHandler?
     
     public let usingPromotionIAP: Bool
     
-    public static let empty = CTPurchaseConfig(
+    public static let empty = PurchaseConfig(
         sharedSecret: nil,
         purchaseIDs: [],
         subscriptionIDs: [],
@@ -37,7 +37,7 @@ public struct CTPurchaseConfig {
         purchaseIDs: [String],
         subscriptionIDs: [String],
         serverVerifyProductIDs: [String],
-        verifyReceiptHandler: CTPurchaseVerifyReceiptHandler?,
+        verifyReceiptHandler: PurchaseVerifyReceiptHandler?,
         usingPromotionIAP: Bool) {
         
         self.sharedSecret = sharedSecret

@@ -8,8 +8,6 @@
 
 import UIKit
 
-import AstraLib
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -19,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        setupAstraLib(application, launchOptions: launchOptions)
+//        setupAstraLib(application, launchOptions: launchOptions)
         
         return true
     }
@@ -44,46 +42,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-    }
-    
-}
-
-extension AppDelegate {
-    
-    func setupAstraLib(_ application: UIApplication, launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
-        
-        CTPurchaseKit.config()
-        AdjustTracking.config(appToken: AdjustToken.appToken)
-        FirebaseTracking.config()
-        FacebookTracking.config(application: application, launchOptions: launchOptions)
-        
-        setupRemoteNotification()
-    }
-    
-    private func setupRemoteNotification() {
-        
-        let notificationDelegate = DefaultNotificationHanlder()
-        RemoteNotificationRegister.shared.configure(delegate: notificationDelegate)
-        RemoteNotificationRegister.shared.deviceTokenHanlder = { deviceToken in }
-        RemoteNotificationRegister.shared.failToRegisterHanlder = { error in }
-    }
-    
-    /*
-    // SceneDelegate.swift
-    import AstraLib
-      ...
-    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
-        guard let url = URLContexts.first?.url else {
-            return
-        }
-
-        FacebookTracking.open(url: url)
-    }
-     */
-    
-    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        
-        return FacebookTracking.application(app, open: url, options: options)
     }
     
 }

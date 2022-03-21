@@ -9,8 +9,8 @@
 import SwiftyStoreKit
 import StoreKit
 
-public typealias CTPurchaseCompletion = (_ isSuccess: Bool?) -> Void
-public typealias CTPurchaseVerifyCompletion = (_ isSuccess: Bool?, _ expiryDate: Date?) -> Void
+public typealias PurchaseCompletion = (_ isSuccess: Bool?) -> Void
+public typealias PurchaseVerifyCompletion = (_ isSuccess: Bool?, _ expiryDate: Date?) -> Void
 
 #if DEBUG
     private let kDelayTime: TimeInterval = 60 * 5
@@ -26,16 +26,16 @@ public enum CTProductType {
 }
 
 
-public class CTPurchaseKit {
+public class PurchaseKit {
 
     
-    public static let shared: CTPurchaseKit = CTPurchaseKit()
+    public static let shared: PurchaseKit = PurchaseKit()
     
     
     public var productsInfo: [String: SKProduct] = [:]
     public var needVerifyPurchases: [PurchaseProtocol] = []
     
-    public var config: CTPurchaseConfig = CTPurchaseConfig.empty
+    public var config: PurchaseConfig = PurchaseConfig.empty
     
     private var indicatorView: UIActivityIndicatorView = {
         
@@ -93,7 +93,7 @@ public class CTPurchaseKit {
     }
     
     
-    public func retrieveProductsInfo(productIDs: [String], showIndicator: Bool = false, completion: CTPurchaseCompletion?) {
+    public func retrieveProductsInfo(productIDs: [String], showIndicator: Bool = false, completion: PurchaseCompletion?) {
         
         if showIndicator {
             showActivityIndicator()
@@ -131,7 +131,7 @@ public class CTPurchaseKit {
         }
     }
     
-    public func purchaseProduct(_ product: SKProduct, completion: CTPurchaseCompletion?) {
+    public func purchaseProduct(_ product: SKProduct, completion: PurchaseCompletion?) {
         
         let atomically = config.serverVerifyProductIDs.contains(product.productIdentifier) ? false : true
             
@@ -143,7 +143,7 @@ public class CTPurchaseKit {
         }
     }
     
-    public func purchaseProduct(_ productID: String, completion: CTPurchaseCompletion?) {
+    public func purchaseProduct(_ productID: String, completion: PurchaseCompletion?) {
         
         let atomically = config.serverVerifyProductIDs.contains(productID) ? false : true
         
@@ -156,7 +156,7 @@ public class CTPurchaseKit {
     }
     
     
-    public func restorePurchases(atomically: Bool = true, completion: CTPurchaseCompletion?) {
+    public func restorePurchases(atomically: Bool = true, completion: PurchaseCompletion?) {
         
         showActivityIndicator()
         SwiftyStoreKit.restorePurchases(atomically: atomically) { results in
@@ -183,7 +183,7 @@ public class CTPurchaseKit {
     
     // MARK: -
     
-    private func handlePurchaseResult(_ result: PurchaseResult, atomically: Bool, completion: CTPurchaseCompletion?) {
+    private func handlePurchaseResult(_ result: PurchaseResult, atomically: Bool, completion: PurchaseCompletion?) {
         
         switch result {
             
@@ -220,7 +220,7 @@ public class CTPurchaseKit {
     }
     
     
-    private func handleRestoreSuccess(results: RestoreResults, completion: CTPurchaseCompletion?) {
+    private func handleRestoreSuccess(results: RestoreResults, completion: PurchaseCompletion?) {
         
         for purchase in results.restoredPurchases {
             
@@ -300,14 +300,14 @@ public class CTPurchaseKit {
     
     func log(_ items: Any...) {
         #if DEBUG
-        print("[CTPurchaseKit] - ", items)
+        print("[PurchaseKit] - ", items)
         #endif
     }
     
     
     // MARK: - Verify
     
-    public func verifyReceipt(type: CTProductType, productID: String, completion: CTPurchaseVerifyCompletion?) {
+    public func verifyReceipt(type: CTProductType, productID: String, completion: PurchaseVerifyCompletion?) {
         
         #if DEBUG
             let appleValidator = AppleReceiptValidator(service: .sandbox, sharedSecret: config.sharedSecret)
@@ -337,7 +337,7 @@ public class CTPurchaseKit {
     }
     
     
-    public func verifyPurchase(productID: String, in receipt: ReceiptInfo, completion: CTPurchaseVerifyCompletion?) {
+    public func verifyPurchase(productID: String, in receipt: ReceiptInfo, completion: PurchaseVerifyCompletion?) {
         
         let purchaseResult = SwiftyStoreKit.verifyPurchase(productId: productID, inReceipt: receipt)
         
@@ -357,7 +357,7 @@ public class CTPurchaseKit {
     }
     
     
-    public func verifySubscription(productID: String, in receipt: ReceiptInfo, completion: CTPurchaseVerifyCompletion?) {
+    public func verifySubscription(productID: String, in receipt: ReceiptInfo, completion: PurchaseVerifyCompletion?) {
         
         let purchaseResult = SwiftyStoreKit.verifySubscription(ofType: .autoRenewable, productId: productID, inReceipt: receipt)
         
@@ -391,7 +391,7 @@ public class CTPurchaseKit {
     }
     
     
-    private func handleFetchReceiptError(_ error: ReceiptError, productID: String, completion: CTPurchaseVerifyCompletion?) {
+    private func handleFetchReceiptError(_ error: ReceiptError, productID: String, completion: PurchaseVerifyCompletion?) {
         
         self.log("Verify receipt Failed: \(error)")
             
@@ -442,16 +442,16 @@ extension PurchaseDetails: PurchaseProtocol {
 
 // MARK: - Custom
 
-extension CTPurchaseKit {
+extension PurchaseKit {
     
-    public func config(_ configuration: CTPurchaseConfig) {
+    public func config(_ configuration: PurchaseConfig) {
         
         self.config = configuration
         
         addObserverTransactions()
         
         if configuration.usingPromotionIAP {
-            CTPurchaseKit.shared.registerAppStorePaymentHandler()
+            PurchaseKit.shared.registerAppStorePaymentHandler()
         }
         
         DispatchQueue.main.async {
@@ -472,7 +472,7 @@ extension CTPurchaseKit {
                         print("needsFinishTransaction ---------> ", purchase.productId)
                         #endif
                         if config.serverVerifyProductIDs.contains(purchase.productId) {
-                            CTPurchaseKit.shared.needVerifyPurchases.append(purchase)
+                            PurchaseKit.shared.needVerifyPurchases.append(purchase)
                         } else {
                             SwiftyStoreKit.finishTransaction(purchase.transaction)
                             
@@ -507,7 +507,7 @@ extension CTPurchaseKit {
         
         if let subscriptionID = config.subscriptionIDs.first(where: { $0.isPurchased }) {
             
-            CTPurchaseKit.shared.verifyReceipt(type: .subscription, productID: subscriptionID, completion: { [unowned self] isPurchased, expiryDate in
+            PurchaseKit.shared.verifyReceipt(type: .subscription, productID: subscriptionID, completion: { [unowned self] isPurchased, expiryDate in
                 
                 if isPurchased == false {
                     self.showMessageExpiredDate(productID: subscriptionID, expiredDate: expiryDate)

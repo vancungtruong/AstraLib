@@ -1,5 +1,5 @@
 //
-//  CTPurchaseDelegate.swift
+//  PurchaseDelegate.swift
 //  IAP-Subscription
 //
 //  Created by Cung Truong on 4/23/18.
@@ -9,13 +9,13 @@
 import Foundation
 
 
-public protocol CTPurchaseDelegate: NSObjectProtocol {
+public protocol PurchaseDelegate: NSObjectProtocol {
     
     func handleInAppPurchaseNotification(_ notify: Notification)
 }
 
 
-extension CTPurchaseDelegate {
+extension PurchaseDelegate {
     
     public func addObserverInAppPurchaseNotification() {
         

@@ -45,9 +45,9 @@ public class FacebookTracking {
             
             var params: [AppEvents.ParameterName : Any] = [:]
             for (key, value) in parameters {
-                params[AppEvents.ParameterName(rawValue: key)] = value
+                params[AppEvents.ParameterName(key)] = value
             }
-            
+
             if let valueToSum = valueToSum {
                 AppEvents.shared.logEvent(event, valueToSum: valueToSum, parameters: params)
             } else {
@@ -67,7 +67,13 @@ public class FacebookTracking {
     public static func trackPurchase(amount: Double, currency: String, parameters: [String : Any]?) {
         
         if let parameters = parameters {
-            AppEvents.shared.logPurchase(amount: amount, currency: currency, parameters: parameters)
+            
+            var params: [AppEvents.ParameterName : Any] = [:]
+            for (key, value) in parameters {
+                params[AppEvents.ParameterName(key)] = value
+            }
+            
+            AppEvents.shared.logPurchase(amount: amount, currency: currency, parameters: params)
         } else {
             AppEvents.shared.logPurchase(amount: amount, currency: currency)
         }

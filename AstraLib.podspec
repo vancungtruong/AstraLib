@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AstraLib'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'Kit for Astra'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'Foundation', 'UIKit', 'UserNotifications'
    s.dependency 'SwiftyStoreKit', '~> 0.16.1'
-   s.dependency 'Adjust', '~> 4.29.7'
-   s.dependency 'FBSDKCoreKit', '~> 12.3.2'
-   s.dependency 'Firebase/Analytics', '~> 8.13.0'
+   s.dependency 'Adjust', '~> 4.30.0'
+   s.dependency 'FBSDKCoreKit', '~> 14.1.0'
+   s.dependency 'Firebase/Analytics', '~> 9.2.0'
 end

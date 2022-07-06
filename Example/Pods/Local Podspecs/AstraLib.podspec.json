@@ -1,6 +1,6 @@
 {
   "name": "AstraLib",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "summary": "Kit for Astra",
   "homepage": "https://github.com/vancungtruong/AstraLib",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/vancungtruong/AstraLib.git",
-    "tag": "0.1.2"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "13.0"
@@ -29,13 +29,13 @@
       "~> 0.16.1"
     ],
     "Adjust": [
-      "~> 4.29.7"
+      "~> 4.30.0"
     ],
     "FBSDKCoreKit": [
-      "~> 12.3.2"
+      "~> 14.1.0"
     ],
     "Firebase/Analytics": [
-      "~> 8.13.0"
+      "~> 9.2.0"
     ]
   },
   "swift_version": "5.0"

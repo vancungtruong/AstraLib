@@ -45,27 +45,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 - [Firebase](https://firebase.google.com/docs/analytics/get-started?platform=ios)
 - [Facebook](https://developers.facebook.com/docs/app-events/getting-started-app-events-ios)
 
-### AstraLib+Custom
-
-Copy "AstraLib+Custom" folder to your project, edit content inside this folder
-
-### AppDelegate.swift
-
-```swift
-
-class AppDelegate: UIResponder, UIApplicationDelegate { 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        setupAstraLib(application, launchOptions: launchOptions)
-
-        
-        return true
-    }
-}
-
-```
-
 ## Author
 
 Cung Truong, vancungtruong@gmail.com

@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C3ED79327E8187A00D4CC3E /* AstraLib+Custom in Resources */ = {isa = PBXBuildFile; fileRef = 1C3ED79227E8187A00D4CC3E /* AstraLib+Custom */; };
 		5116C7211A57F2EF785EEBB1 /* Pods_AstraLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5232D53017DABF28BE08078B /* Pods_AstraLib_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		B7E49B3928D960BF003F13CC /* AppDelegate+AstraLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B1F28D960BE003F13CC /* AppDelegate+AstraLib.swift */; };
+		B7E49B3A28D960BF003F13CC /* SceneDelegate+AstraLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B2028D960BE003F13CC /* SceneDelegate+AstraLib.swift */; };
+		B7E49B3B28D960BF003F13CC /* PurchaseProduct+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B2328D960BE003F13CC /* PurchaseProduct+Custom.swift */; };
+		B7E49B3C28D960BF003F13CC /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B2428D960BE003F13CC /* IAPHelper.swift */; };
+		B7E49B3D28D960BF003F13CC /* PurchaseProduct+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B2628D960BE003F13CC /* PurchaseProduct+Base.swift */; };
+		B7E49B3E28D960BF003F13CC /* PurchaseKit+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B2728D960BE003F13CC /* PurchaseKit+Config.swift */; };
+		B7E49B3F28D960BF003F13CC /* SKProduct+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B2828D960BE003F13CC /* SKProduct+Extension.swift */; };
+		B7E49B4028D960BF003F13CC /* AdjustTracking+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B2B28D960BE003F13CC /* AdjustTracking+Custom.swift */; };
+		B7E49B4128D960BF003F13CC /* AdjustTracking+Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B2C28D960BE003F13CC /* AdjustTracking+Purchase.swift */; };
+		B7E49B4228D960BF003F13CC /* FirebaseTracking+Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B2E28D960BE003F13CC /* FirebaseTracking+Purchase.swift */; };
+		B7E49B4328D960BF003F13CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7E49B2F28D960BE003F13CC /* GoogleService-Info.plist */; };
+		B7E49B4428D960BF003F13CC /* FirebaseTracking+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B3028D960BE003F13CC /* FirebaseTracking+Custom.swift */; };
+		B7E49B4528D960BF003F13CC /* FirebaseTracking+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B3128D960BE003F13CC /* FirebaseTracking+Base.swift */; };
+		B7E49B4628D960BF003F13CC /* TrackingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B3228D960BE003F13CC /* TrackingEvent.swift */; };
+		B7E49B4728D960BF003F13CC /* FacebookTracking+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B3428D960BE003F13CC /* FacebookTracking+Custom.swift */; };
+		B7E49B4828D960BF003F13CC /* FacebookTracking+Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B3528D960BE003F13CC /* FacebookTracking+Purchase.swift */; };
+		B7E49B4928D960BF003F13CC /* TrackingEvent+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B3628D960BE003F13CC /* TrackingEvent+Name.swift */; };
+		B7E49B4A28D960BF003F13CC /* AppDelegate+RemoteNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B3828D960BE003F13CC /* AppDelegate+RemoteNotification.swift */; };
+		B7E49B4E28D960C5003F13CC /* UpgradeToPremium.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E49B4C28D960C5003F13CC /* UpgradeToPremium.storyboard */; };
+		B7E49B4F28D960C5003F13CC /* UpgradeToPremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B4D28D960C5003F13CC /* UpgradeToPremiumViewController.swift */; };
+		B7E49B5228D960D7003F13CC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B5128D960D7003F13CC /* BaseViewController.swift */; };
+		B7E49B5428D9613D003F13CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E49B5328D9613D003F13CC /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05D793B2DD60184C0A5CEFF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0CC8A022DABC4863FB13CAD1 /* AstraLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AstraLib.podspec; path = ../AstraLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1C3ED79227E8187A00D4CC3E /* AstraLib+Custom */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "AstraLib+Custom"; path = "../../../Demo/AstraDemo/AstraDemo/AstraLib+Custom"; sourceTree = "<group>"; };
 		5232D53017DABF28BE08078B /* Pods_AstraLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstraLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E1A30CA2168B8CE5C12344 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AstraLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstraLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +53,28 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		61B45163E789B5E77BE2B11A /* Pods-AstraLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstraLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-AstraLib_Example/Pods-AstraLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8CAB6D8E069482CF76873A51 /* Pods-AstraLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstraLib_Example.release.xcconfig"; path = "Target Support Files/Pods-AstraLib_Example/Pods-AstraLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B7E49B1F28D960BE003F13CC /* AppDelegate+AstraLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+AstraLib.swift"; sourceTree = "<group>"; };
+		B7E49B2028D960BE003F13CC /* SceneDelegate+AstraLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SceneDelegate+AstraLib.swift"; sourceTree = "<group>"; };
+		B7E49B2328D960BE003F13CC /* PurchaseProduct+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PurchaseProduct+Custom.swift"; sourceTree = "<group>"; };
+		B7E49B2428D960BE003F13CC /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		B7E49B2628D960BE003F13CC /* PurchaseProduct+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PurchaseProduct+Base.swift"; sourceTree = "<group>"; };
+		B7E49B2728D960BE003F13CC /* PurchaseKit+Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PurchaseKit+Config.swift"; sourceTree = "<group>"; };
+		B7E49B2828D960BE003F13CC /* SKProduct+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKProduct+Extension.swift"; sourceTree = "<group>"; };
+		B7E49B2B28D960BE003F13CC /* AdjustTracking+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AdjustTracking+Custom.swift"; sourceTree = "<group>"; };
+		B7E49B2C28D960BE003F13CC /* AdjustTracking+Purchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AdjustTracking+Purchase.swift"; sourceTree = "<group>"; };
+		B7E49B2E28D960BE003F13CC /* FirebaseTracking+Purchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FirebaseTracking+Purchase.swift"; sourceTree = "<group>"; };
+		B7E49B2F28D960BE003F13CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B7E49B3028D960BE003F13CC /* FirebaseTracking+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FirebaseTracking+Custom.swift"; sourceTree = "<group>"; };
+		B7E49B3128D960BE003F13CC /* FirebaseTracking+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FirebaseTracking+Base.swift"; sourceTree = "<group>"; };
+		B7E49B3228D960BE003F13CC /* TrackingEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingEvent.swift; sourceTree = "<group>"; };
+		B7E49B3428D960BE003F13CC /* FacebookTracking+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FacebookTracking+Custom.swift"; sourceTree = "<group>"; };
+		B7E49B3528D960BE003F13CC /* FacebookTracking+Purchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FacebookTracking+Purchase.swift"; sourceTree = "<group>"; };
+		B7E49B3628D960BE003F13CC /* TrackingEvent+Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TrackingEvent+Name.swift"; sourceTree = "<group>"; };
+		B7E49B3828D960BE003F13CC /* AppDelegate+RemoteNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+RemoteNotification.swift"; sourceTree = "<group>"; };
+		B7E49B4C28D960C5003F13CC /* UpgradeToPremium.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UpgradeToPremium.storyboard; sourceTree = "<group>"; };
+		B7E49B4D28D960C5003F13CC /* UpgradeToPremiumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeToPremiumViewController.swift; sourceTree = "<group>"; };
+		B7E49B5128D960D7003F13CC /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B7E49B5328D9613D003F13CC /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +120,11 @@
 		607FACD21AFB9204008FA782 /* Example for AstraLib */ = {
 			isa = PBXGroup;
 			children = (
-				1C3ED79227E8187A00D4CC3E /* AstraLib+Custom */,
+				B7E49B5028D960D7003F13CC /* Base */,
+				B7E49B4B28D960C5003F13CC /* UpgradeToPremium */,
+				B7E49B1E28D960BE003F13CC /* AstraLib+Custom */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				B7E49B5328D9613D003F13CC /* SceneDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -132,6 +177,112 @@
 				8CAB6D8E069482CF76873A51 /* Pods-AstraLib_Example.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B7E49B1E28D960BE003F13CC /* AstraLib+Custom */ = {
+			isa = PBXGroup;
+			children = (
+				B7E49B1F28D960BE003F13CC /* AppDelegate+AstraLib.swift */,
+				B7E49B2028D960BE003F13CC /* SceneDelegate+AstraLib.swift */,
+				B7E49B2128D960BE003F13CC /* Purchase */,
+				B7E49B2928D960BE003F13CC /* Tracking */,
+				B7E49B3728D960BE003F13CC /* RemoteNotification */,
+			);
+			path = "AstraLib+Custom";
+			sourceTree = "<group>";
+		};
+		B7E49B2128D960BE003F13CC /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				B7E49B2228D960BE003F13CC /* Custom */,
+				B7E49B2528D960BE003F13CC /* Base */,
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		B7E49B2228D960BE003F13CC /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				B7E49B2328D960BE003F13CC /* PurchaseProduct+Custom.swift */,
+				B7E49B2428D960BE003F13CC /* IAPHelper.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		B7E49B2528D960BE003F13CC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B7E49B2628D960BE003F13CC /* PurchaseProduct+Base.swift */,
+				B7E49B2728D960BE003F13CC /* PurchaseKit+Config.swift */,
+				B7E49B2828D960BE003F13CC /* SKProduct+Extension.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B7E49B2928D960BE003F13CC /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				B7E49B2A28D960BE003F13CC /* Adjust */,
+				B7E49B2D28D960BE003F13CC /* Firebase */,
+				B7E49B3328D960BE003F13CC /* Facebook */,
+				B7E49B3628D960BE003F13CC /* TrackingEvent+Name.swift */,
+			);
+			path = Tracking;
+			sourceTree = "<group>";
+		};
+		B7E49B2A28D960BE003F13CC /* Adjust */ = {
+			isa = PBXGroup;
+			children = (
+				B7E49B2B28D960BE003F13CC /* AdjustTracking+Custom.swift */,
+				B7E49B2C28D960BE003F13CC /* AdjustTracking+Purchase.swift */,
+			);
+			path = Adjust;
+			sourceTree = "<group>";
+		};
+		B7E49B2D28D960BE003F13CC /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				B7E49B2E28D960BE003F13CC /* FirebaseTracking+Purchase.swift */,
+				B7E49B2F28D960BE003F13CC /* GoogleService-Info.plist */,
+				B7E49B3028D960BE003F13CC /* FirebaseTracking+Custom.swift */,
+				B7E49B3128D960BE003F13CC /* FirebaseTracking+Base.swift */,
+				B7E49B3228D960BE003F13CC /* TrackingEvent.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		B7E49B3328D960BE003F13CC /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				B7E49B3428D960BE003F13CC /* FacebookTracking+Custom.swift */,
+				B7E49B3528D960BE003F13CC /* FacebookTracking+Purchase.swift */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		B7E49B3728D960BE003F13CC /* RemoteNotification */ = {
+			isa = PBXGroup;
+			children = (
+				B7E49B3828D960BE003F13CC /* AppDelegate+RemoteNotification.swift */,
+			);
+			path = RemoteNotification;
+			sourceTree = "<group>";
+		};
+		B7E49B4B28D960C5003F13CC /* UpgradeToPremium */ = {
+			isa = PBXGroup;
+			children = (
+				B7E49B4C28D960C5003F13CC /* UpgradeToPremium.storyboard */,
+				B7E49B4D28D960C5003F13CC /* UpgradeToPremiumViewController.swift */,
+			);
+			path = UpgradeToPremium;
+			sourceTree = "<group>";
+		};
+		B7E49B5028D960D7003F13CC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B7E49B5128D960D7003F13CC /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,9 +348,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				B7E49B4328D960BF003F13CC /* GoogleService-Info.plist in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				1C3ED79327E8187A00D4CC3E /* AstraLib+Custom in Resources */,
+				B7E49B4E28D960C5003F13CC /* UpgradeToPremium.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,8 +431,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E49B4F28D960C5003F13CC /* UpgradeToPremiumViewController.swift in Sources */,
+				B7E49B4228D960BF003F13CC /* FirebaseTracking+Purchase.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				B7E49B3D28D960BF003F13CC /* PurchaseProduct+Base.swift in Sources */,
+				B7E49B4828D960BF003F13CC /* FacebookTracking+Purchase.swift in Sources */,
+				B7E49B5228D960D7003F13CC /* BaseViewController.swift in Sources */,
+				B7E49B4628D960BF003F13CC /* TrackingEvent.swift in Sources */,
+				B7E49B5428D9613D003F13CC /* SceneDelegate.swift in Sources */,
+				B7E49B3F28D960BF003F13CC /* SKProduct+Extension.swift in Sources */,
+				B7E49B3A28D960BF003F13CC /* SceneDelegate+AstraLib.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				B7E49B3928D960BF003F13CC /* AppDelegate+AstraLib.swift in Sources */,
+				B7E49B4128D960BF003F13CC /* AdjustTracking+Purchase.swift in Sources */,
+				B7E49B4A28D960BF003F13CC /* AppDelegate+RemoteNotification.swift in Sources */,
+				B7E49B4528D960BF003F13CC /* FirebaseTracking+Base.swift in Sources */,
+				B7E49B3C28D960BF003F13CC /* IAPHelper.swift in Sources */,
+				B7E49B4728D960BF003F13CC /* FacebookTracking+Custom.swift in Sources */,
+				B7E49B3B28D960BF003F13CC /* PurchaseProduct+Custom.swift in Sources */,
+				B7E49B4928D960BF003F13CC /* TrackingEvent+Name.swift in Sources */,
+				B7E49B4028D960BF003F13CC /* AdjustTracking+Custom.swift in Sources */,
+				B7E49B3E28D960BF003F13CC /* PurchaseKit+Config.swift in Sources */,
+				B7E49B4428D960BF003F13CC /* FirebaseTracking+Custom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +588,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuongnguyen.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
@@ -432,7 +604,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuongnguyen.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
